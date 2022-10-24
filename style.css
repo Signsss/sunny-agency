@@ -1,77 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.container_wrapper{
+
+.container_wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
-.navbar{
+
+.navbar {
     background-color: rgb(62 191 255);
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 1px rgb(0 0 0 / 10%),0 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    box-shadow: 0 1px rgb(0 0 0 / 10%), 0 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
 }
-.border{
+
+.border {
     border: solid 2px;
 }
-.logo{
+
+.logo {
     margin: 2rem;
 }
-.tags{
+
+.tags {
     display: flex;
     gap: 0.5rem;
 }
-.links{
+
+.links {
     margin: 2rem;
 }
-.button{
+
+.button {
     margin: 2rem;
     border-radius: 1rem;
     padding: 5px 8px;
     border-color: #fff;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #fff;
     padding: 0 0.5rem;
 }
-.header_container{
+
+.header_container {
     width: 100%;
     height: 50.25rem;
     background-image: url(./images/desktop/image-header.jpg);
 }
-.creatives{
+
+.creatives {
     text-align: center;
     color: #fff;
     font-size: 40px;
     padding: 2rem;
 }
-.contain{
+
+.contain {
     display: flex;
     align-items: center;
 }
-.max_width{
+
+.max_width {
     max-width: 1440px;
     margin: auto;
 }
-.graphics{
+
+.graphics {
     background-image: url(./images/desktop/image-graphic-design.jpg);
 }
-.photography{
+
+.photography {
     background-image: url(./images/desktop/image-photography.jpg);
-    
+
 }
-.background{
-    background-size: contain;
+
+.background {
+    background-size: cover;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
 }
-.transform{
+
+.transform {
     max-width: 60%;
     display: flex;
     flex-direction: column;
@@ -80,38 +97,47 @@ nav a{
     text-align: center;
     margin: auto;
 }
-.transform_img{
-    width:1129px
+
+.transform_img {
+    width: 1129px
 }
-.review{
+
+.review {
     display: flex;
     flex-direction: column;
 }
-.review_img{
-    margin:0.5rem auto;
-}
-.review_txt{
-    margin:0.5rem auto;
-}
-.review_name{
-    margin: 0.5rem auto;
-}
-.review_description{
+
+.review_img {
     margin: 0.5rem auto;
 }
 
-.wrap{
+.review_txt {
+    margin: 0.5rem auto;
+}
+
+.review_name {
+    margin: 0.5rem auto;
+}
+
+.review_description {
+    margin: 0.5rem auto;
+}
+
+.wrap {
     background-color: hsl(168, 34%, 41%);
 }
-.sunny{
+
+.sunny {
     padding-top: 0.5rem;
     text-align: center;
 }
-.link{
+
+.link {
     text-align: center;
     margin: 2rem;
 }
-.social{
+
+.social {
     padding-bottom: 2rem;
     text-align: center;
 }
